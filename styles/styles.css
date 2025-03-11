@@ -1,0 +1,71 @@
+.contentBox{
+    display:flex;
+    flex-direction: column;   
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:stretch; */
+    /* justify-content: space-evenly; */
+}
+.subSection1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+    /* background-image: url(../images/img1.jpg); */
+    /* object-fit:contain; */
+}
+.subSection1 img{
+    width: 200px;
+    height: 200px;
+}
+.subSection2{
+    flex-flow: 1;
+}
+.carousel-inner img{
+    object-fit: cover;
+}
+.exp{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: rgb(38, 38, 72);
+    color:beige;
+    font-size: 18px;
+
+}
+.navParent1{
+    padding-top: .7rem;
+}
+.navBar{
+    display: flex;
+    flex-direction: column;
+}
+.navParent1,.navParent2{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.navList{
+    position: relative;
+}
+.navSub{
+    position: absolute;
+    visibility: hidden;
+    width: 300px;
+    /* height: 150px; */
+    background-color: white;
+}
+.navList:hover .navSub{
+    visibility: visible;
+}
+.navSub>ul{
+    list-style-type: none;
+}
+.navSub>ul>li{
+    padding: 0.2rem;
+}
+.navSub>ul>li a{
+    text-decoration: none;
+    color:navy;
+}
