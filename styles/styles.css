@@ -34,6 +34,11 @@
     font-size: 18px;
 
 }
+embed,iframe{
+    height: 100px;
+    overflow: hidden;
+    
+}
 .navParent1{
     padding-top: .7rem;
 }
