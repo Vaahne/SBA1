@@ -1,7 +1,81 @@
 .addYourRecipe{
     margin: 1rem auto;   
+    /* width: 40rem; */
+}
+.addRecipe{
+    margin: 1rem auto;
+}
+.hr{
+   border: .5px solid grey;
+   width: 90%;
+   margin: 1rem;
 }
 form{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    background-color: beige;
+    box-shadow: 1px 1px 1px white;
+}
+.formSection1{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.forsub1{
+    display: flex;
+    /* justify-content: space-around; */
+    align-content: space-between;
+}
+.recipeTitleSection{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+}
+.uploadPic{
+    /* background-image: url(../images/img1.jpg); */
+    width: 80px;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    margin: 0.4rem;
+}
+input,select{
+    /* width: 20%; */
+    padding: 0.4rem;
+    margin: 0.2rem 0;
+    border-radius: 0.2rem;
+}
+textarea{
+    /* width: 30%; */
+    margin: 2rem 0;
+    padding: 0.4rem;
+}
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.directions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prepTime{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cookTime{
+    display: flex;
+    justify-content: space-evenly;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
 }

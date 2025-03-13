@@ -1,3 +1,6 @@
+.body{
+    background-image: url(../images/img5.jpg);
+}
 .contentBox{
     display:flex;
     flex-direction: column;   
@@ -43,6 +46,10 @@ embed,iframe{
     padding-top: .7rem;
 }
 .navBar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #0033;
     display: flex;
     flex-direction: column;
 }
@@ -60,6 +67,7 @@ embed,iframe{
     width: 300px;
     /* height: 150px; */
     background-color: white;
+    border-radius: 0.4rem;
 }
 .navList:hover .navSub{
     visibility: visible;
