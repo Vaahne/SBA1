@@ -14,7 +14,7 @@ form{
     /* display: flex;
     flex-direction: column;
     align-items: center; */
-    background-color: beige;
+    background-color: #4D55CC;
     box-shadow: 1px 1px 1px white;
 }
 .formSection1{
@@ -39,7 +39,8 @@ form{
 }
 .btns{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:2rem;
 }
 .btn{
     margin: 0.4rem;
@@ -67,15 +68,8 @@ textarea{
     justify-content: center;
     align-items: center;
 }
-.prepTime{
+.prepTime,.cookTime{
     display: flex;
-    justify-content: space-evenly;
-}
-.cookTime{
-    display: flex;
-    justify-content: space-evenly;
-}
-.time{
-    display: flex;
-    justify-content: space-between;
+    justify-content:center;
+    gap: 1rem;
 }
