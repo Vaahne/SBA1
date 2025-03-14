@@ -9,9 +9,9 @@ body{
     padding: 1px;
 }
 .login{
-    margin: 2px auto;
-    width: 25rem;
-    border-radius: 1rem;
+    margin: 20px auto; 
+    width: 25rem; 
+    border-radius: 1rem; 
 }
 form{
     display: flex;
