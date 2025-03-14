@@ -9,14 +9,16 @@
         .tipsToAdd{
             display: flex;
             flex-direction: column;
-            margin: 0  auto;
+            margin: 1rem  auto;
             width: 50%;
-            height: 100vh;
-            color: rgb(38, 38, 72);
+            /* height: 100vh; */
+            color: white;
+            background-color:  rgb(35, 35, 105);;
+            border-radius: 2rem;
         } 
-        body{
-            background: url("../images/Pizza.webp") ;
-        }     
+        .tipsToAdd *{
+            padding-left: 1rem ;
+        }
     </style>
 </head>
 <body>
@@ -92,12 +94,11 @@
     <div class="tipsToAdd" style="font-family: 'Lora', serif;">
         <h1>Tips for Submitting Your Recipe</h1>
         <h3>Title</h3>
-        <p> Choose a clear title that tells the cook what to expect and includes search-friendly words. "Andouille and Chicken Creole Pasta" tells us more about the dish than "Mardi Gras Pasta." </p>
-
+        <p>Choose a clear title that tells the cook what to expect and includes search-friendly words.</p>
+        <div class="hr"></div>
         <h3>Description</h3>
         <p> Include a short but detailed sentence describing the dish that will get the cook excited and tell them what to expect.</p>
-        <p>"This pan-seared tilapia dish is a delicious and easy way to prepare seafood! Great for a quick weeknight meal accompanied with fresh veggies."</p>
-
+        <div class="hr"></div>
         <h3>Ingredients</h3>
         <p>Include measurments</p>
         <p>List ingredients in order</p>

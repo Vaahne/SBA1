@@ -9,16 +9,13 @@ main,body{
     margin: 1rem auto;
     font-weight: bold;
 }
-.hr{
-   border: .5px solid grey;
-   width: 90%;
-   margin: 1rem;
-}
+
 form{
     /* background-color: #4D55CC; */
-    background-color: #6a6a70;
+    background-color: rgb(35, 35, 105);
     box-shadow: 1px 1px 1px white;
     border-radius: 2rem;
+    color: white;
 }
 .formSection1{
     display: flex;
