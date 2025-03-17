@@ -12,7 +12,7 @@ If more time were available, I would:
 - Add a **chat feature** in future projects for real-time assistance.  
 
 ## Challenges Faced  
-- Debugging **navbar issues** when using `position: fixed`.  
+- Debugging **navbar issues** when using `position: sticky`.  
 - Special thanks to our **instructor** for guidance in resolving the issue.  
 
 ## References  
